@@ -1,8 +1,18 @@
 /* Created by TopStyle Trial - www.topstyle4.com */
 
 body{
-background-color: #b0e0e6;	
+background-color: #b0e0e6;
+background: #ede4c5 url('locandina.jpg') repeat 0 0;	
 }
+
+.container {
+  height: 400px;
+  width: 50%;
+  background-color: #ffffff;
+  margin-top: 2%;
+  border: 20px yellow;
+}
+
 .tab td,th{
 background-color: white;
 padding: 3px;
