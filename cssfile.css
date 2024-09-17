@@ -1,0 +1,25 @@
+/* Created by TopStyle Trial - www.topstyle4.com */
+
+body{
+background-color: #b0e0e6;	
+}
+.tab td,th{
+background-color: white;
+padding: 3px;
+}
+.tab{
+	border-collapse: collapse;
+}
+.erreur{
+	color: #cd853f;
+}
+.grasvert{
+color: green;
+font-size: 30px;
+}
+
+/*
+     Code écrit le 11/01/2021 à N'djaména au Tchad par 
+     TARGOTO CHRISTIAN
+     contact: 23560316682/ct@chrislink.net
+*/
