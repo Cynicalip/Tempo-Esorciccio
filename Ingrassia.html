@@ -26,7 +26,7 @@ if(cn(hours)&& cn(minutes)){
 			mess += " ore equivalgono a ";}
 
 	else if(hours==0){
-		mess="<br>" + minutes;
+		mess="<br><b class='grasvert'>" + minutes;
 		if(minutes==1){
 			mess += " minuto equivale a ";}
 		else
@@ -104,9 +104,8 @@ container.innerHTML = mess;}
 		<center><p>Tempo da convertire: <input type="number" name="hours" id="hours" min=0 value=0> ore, 
 				<input type="number" name="min" id="min" min=0 value=0> minuti.</p>
 		<button type="button" onclick="ciccio()">Procedi</button></form>
-	
-		<b class='grasvert'>
-		<div id="containerTEXT"></div></b>
+		
+		<div id="containerTEXT" class='grasvert'></div>
 		<br></center>
 		</div>
 	</body>
