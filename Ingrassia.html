@@ -49,9 +49,9 @@ if(cn(hours)&& cn(minutes)){
 
 	Ciccio = 90;
 
-		console.log(minutes);
+		
 	   minutes += (hours*60);
-	   console.log(minutes);
+	  
 	   
 	   if(MCD(minutes,Ciccio)==1){
 		mess+=minutes+"/"+Ciccio + " di Esorciccio.";}
@@ -65,7 +65,7 @@ if(cn(hours)&& cn(minutes)){
 		  mess+=(minutes/MCD(minutes,Ciccio)) + "/" + Ciccio/MCD(minutes,Ciccio)+" di Esorciccio.";}
 }
 
-console.log(mess);
+
 var container = document.getElementById('containerTEXT');
 container.innerHTML = mess;}
 
