@@ -1,4 +1,3 @@
-/* Created by TopStyle Trial - www.topstyle4.com */
 
 body{
 background-color: #b0e0e6;
@@ -7,9 +6,9 @@ background: #ede4c5 url('locandina.jpg') repeat 0 0;
 
 .container {
   height: 400px;
-  width: 50%;
+  width: 35%;
   background-color: #ffffff;
-  margin-top: 2%;
+  margin: 2%;
   border: 20px yellow;
 }
 
@@ -28,8 +27,6 @@ color: green;
 font-size: 30px;
 }
 
-/*
-     Code écrit le 11/01/2021 à N'djaména au Tchad par 
-     TARGOTO CHRISTIAN
-     contact: 23560316682/ct@chrislink.net
-*/
+p {
+  line-height: 1.2;
+}
