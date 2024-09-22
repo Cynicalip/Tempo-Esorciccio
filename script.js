@@ -3,7 +3,7 @@ function ciccio() {
   let minutes = parseInt(document.getElementById("min").value, 10) || 0;
   let mess = "";
 
-  if (hours === 0 && minutes === 0) {
+  if (hours <= 0 && minutes <= 0) {
     mess = "Inserisci almeno un valore.";
   } else {
     mess = `${hours > 0 ? hours + (hours === 1 ? " ora" : " ore") : ""} ${
