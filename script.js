@@ -14,8 +14,8 @@ function ciccio() {
     }${
       minutes > 0 ? minutes + (minutes === 1 ? " minuto" : " minuti") : ""
     }${
-		((hours===1) ? ((minutes===1) ? " equivalgono a " : " equivale a ") : 
-		((minutes===1) ? " equivale a " : " equivalgono a "))} 
+		((hours===1) ? ((minutes>=1) ? " equivalgono a " : " equivale a ") : 
+		((minutes===1) ? ((hours>=1) ? " equivalgono a " : " equivale a ") : " equivalgono a "))} 
 	`;
 
     const Ciccio = 90;
