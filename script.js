@@ -10,7 +10,10 @@ function ciccio() {
       hours > 0 && minutes > 0 ? "e " : ""
     }${
       minutes > 0 ? minutes + (minutes === 1 ? " minuto" : " minuti") : ""
-    } equivalgono a `;
+    }${
+		((hours===1) ? ((minutes===1) ? " equivalgono a " : " equivale a ") : 
+		((minutes===1) ? " equivale a " : " equivalgono a "))} 
+	`;
 
     const Ciccio = 90;
     minutes += hours * 60;
